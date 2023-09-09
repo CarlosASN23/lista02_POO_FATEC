@@ -7,7 +7,7 @@ public class Aluno {
     private float p1, p2;
     private String nome;
     
-    // método construtor sem argumento
+    // método construtor sem argumento com valores default
     public Aluno(){
         
         this.setnome("Ronildo Gonçalves");
@@ -26,6 +26,7 @@ public class Aluno {
         this.setp1(p1);
         this.setp2(p2);
     }
+    
    
     public int getnumeroAluno() {
         return numeroAluno;
@@ -116,4 +117,5 @@ public class Aluno {
             + "\n======================== ";
     }
     
+   
 }
